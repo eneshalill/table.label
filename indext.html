@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>enes halil</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <header>
+    <header >
       <h1>رحلتي في تعلم البرمجة من البداية حتى الأحتراف</h1>
       <h2>أهلاً وسهلاً بكم في صفحتي الخاصة بعالم البرمجة</h2>
-      <nav>
+      <nav style="color: rgb(230, 9, 9)"class="rr">
         <ul>
           <li><a href="indext.html">الرئيسية</a></li>
           <li><a href="من نحن.html">من نحن</a></li>
@@ -17,93 +19,107 @@
           <li><a href="التواصل.html">التواصل</a></li>
         </ul>
       </nav>
-      <img src="Enesweb (1).png" alt="شعار" />
+      <img width="350" height="350" src="Enesweb (1).png" alt="شعار" />
     </header>
     <hr />
 
     <main>
-      <article>
-        <h3>علم البرمجة لغة العصر ومحرك التطور التكنلوجي</h3>
-        <p>
-          هيعلم البرمجة هو الأساس الذي تقوم عليه التقنيات الحديثة في العالم
-          الرقمي.
+      <section>
+        <article>
+          <h3 style="color: rgb(58, 121, 240)">
+            علم البرمجة لغة العصر ومحرك التطور التكنلوجي
+          </h3>
+          <p>
+            <b>علم البرمجة</b> هو الأساس الذي تقوم عليه التقنيات الحديثة في
+            العالم الرقمي
 
-          <br />يعتمد على كتابة الأكواد التي تُمكّن الأجهزة <br />من تنفيذ أوامر
-          محددة لحل المشكلات أو تحسين العمليات يُعتبر البرمجة أداة قوية لتطوير
-          تطبيقات الهواتف، مواقع الويب، <br />
-          والأنظمة الذكية التي نعتمد عليها يوميًا. <br />مع تزايد الاعتماد على
-          التكنولوجيا، <br />أصبح تعلم البرمجة مهارة أساسية لفتح أبواب الابتكار
-          وتطوير الحلول الإبداعية.
-        </p>
-      </article>
+            <br />يعتمد على كتابة الأكواد التي تُمكّن الأجهزة <br />من تنفيذ
+            أوامر محددة لحل المشكلات أو تحسين العمليات يُعتبر البرمجة أداة قوية
+            <span class="ff"><strong>مواقع الويب</strong></span> لتطوير تطبيقات
+            الهواتف، <br />
+            والأنظمة الذكية التي نعتمد عليها يوميًا. <br />مع تزايد الاعتماد على
+            التكنولوجيا، <br />أصبح تعلم البرمجة مهارة أساسية لفتح أبواب
+            الابتكار وتطوير الحلول الإبداعية.
+          </p>
+          <img width="150px" height="200px"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1kKpS2kSJA3_aUCQo8Og_LwrflWsPv97TvQ&s"
+            alt="صورة"
+          />
+        </article>
+      </section>
       <hr />
-      <h2>أهم لغات البرمجة لتصميم مواقع الويب</h2>
-      <ol>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>PHP</li>
-      </ol>
-
+      <section>
+        <h2 class="gh">أهم لغات البرمجة لتصميم مواقع الويب</h2>
+        <ol>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>PHP</li>
+        </ol>
+      </section>
       <hr />
+      <section>
+        <h3 class="gg">لمن يرغب في تعلم البرمجة من الصفر حتى الاحتراف</h3>
+        <form action="submit" method="post">
+          <label for="name">الأسم الثلاثي</label>
+          <input type="text" id="name" name="name" required />
 
-      <h3>لمن يرغب في تعلم البرمجة من الصفر حتى الاحتراف</h3>
-      <form action="submit" method="post">
-        <label for="name">الأسم الثلاثي</label>
-        <input type="text" id="name" name="name" required />
+          <label for="age">العمر</label>
+          <input type="number" id="age" name="age" />
+          <br />
+          <br />
+          <label for="email">ايميل</label>
+          <input type="email" id="email" name="email" required />
 
-        <label for="age">العمر</label>
-        <input type="number" id="age" name="age" />
-        <br />
-        <br />
-        <label for="email">ايميل</label>
-        <input type="email" id="email" name="email" required />
+          <label for="message">رسالة</label>
+          <input type="text" id="message" name="message" />
+          <br />
+          <br />
+          <label for="country">البلد</label>
+          <input type="text" id="country" name="country" required />
+          <br /><br />
+          <label id="aa" for="source">سمعت عنا</label>
 
-        <label for="message">رسالة</label>
-        <input type="text" id="message" name="message" />
-        <br />
-        <br />
-        <label for="country">البلد</label>
-        <input type="text" id="country" name="country" required />
-        <br /><br />
-        <label for="source">سمعت عنا</label>
+          <select id="source" name="source">
+            <option value="instagram">انستغرام</option>
+            <option value="facebook">فيسبوك</option>
+            <option value="tiktok">تكتوك</option>
+            <option value="friend">صديق</option>
+          </select>
 
-        <select id="source" name="source">
-          <option value="instagram">انستغرام</option>
-          <option value="facebook">فيسبوك</option>
-          <option value="tiktok">تكتوك</option>
-          <option value="friend">صديق</option>
-        </select>
+          <button class="ss" type="submit">يرسل</button>
+        </form>
+      </section>
+      <hr />
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th>الاسم</th>
+              <th>طالب</th>
+              <th>الجنس</th>
+              <th>البلد</th>
+            </tr>
+          </thead>
 
-        <button type="submit">يرسل</button>
-      </form>
-
-      <table>
-        <thead>
-          <tr>
-            <th>الاسم</th>
-            <th>طالب</th>
-            <th>الجنس</th>
-            <th>البلد</th>
-          </tr>
-        </thead>
-        <hr />
-        <tbody>
-          <tr>
-            <td>خالد</td>
-            <td>ثانوي</td>
-            <td>ذكر</td>
-            <td>الصين</td>
-          </tr>
-          <tr>
-            <td>رامي</td>
-            <td>جامعة</td>
-            <td>ذكر</td>
-            <td>سوريا</td>
-          </tr>
-        </tbody>
-      </table>
+          <tbody>
+            <tr>
+              <td>خالد</td>
+              <td>ثانوي</td>
+              <td>ذكر</td>
+              <td>الصين</td>
+            </tr>
+            <tr>
+              <td>رامي</td>
+              <td>جامعة</td>
+              <td>ذكر</td>
+              <td>سوريا</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </main>
+
+    <footer><p>حقوق النشر © 2024 - جميع الحقوق محفوظة.</p></footer>
   </body>
-  <footer><p>حقوق النشر © 2024 - جميع الحقوق محفوظة.</p></footer>
 </html>
