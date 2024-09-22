@@ -1,0 +1,57 @@
+.gh ,.gg ,.ff,.ss,.mm {
+color: hsla(356, 89%, 37%, 0.767);
+}
+
+.rr {
+    background-color: antiquewhite;
+    border: solid;
+    
+}
+
+body { 
+    background-color: rgb(94, 205, 163);
+}
+#aa {
+    color: rgb(42, 9, 144);
+
+}
+
+h1 {
+    color: rgb(250, 27, 7);
+    background-color: rgb(243, 238, 239);
+    border: thick  double
+    mediumslateblue
+  }
+  img {
+
+    display: flex;
+    border-radius: 50%;
+margin: 0px;
+  }
+
+
+
+#bn  {
+    color: rgb(205, 36, 166);
+    font-weight: 900;
+    background-color: rgb(235, 255, 167);
+
+}
+
+
+.w {
+    display: flex;
+    justify-content: space-between;
+
+    border: solid;
+    background-color: rgb(168, 154, 232);
+
+     padding:0rem;
+    margin: 10px;
+}
+
+
+
+ 
+
+

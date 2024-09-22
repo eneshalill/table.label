@@ -1,27 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <header></header>
-        <h1>رحلتي في تعلم البرمجة من البداية حتى الأحتراف</h1>
-<h2>أهلاً وسهلاً بكم في صفحتي الخاصة بعالم البرمجة </h2>
-<nav>
-<ul>
-<li><a href="indext.html">الرئيسية</a></li>
-<li><a href="من نحن.html">من نحن</a></li>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="ss">رحلتي في تعلم البرمجة من البداية حتى الأحتراف</h1>
+      <h2>أهلاً وسهلاً بكم في صفحتي الخاصة بعالم البرمجة</h2>
+      <nav class="rr">
+        <ul>
+          <li><a href="indext.html">الرئيسية</a></li>
+          <li><a href="من نحن.html">من نحن</a></li>
 
-<li><a href="التواصل.html">التواصل</a></li>
-</ul>
-</nav>
-<img src="Enesweb (1).png" alt="شعار">
-</header>
-</body>
-<h1>نحن في انتظارك تواصل معنا</h1>
+          <li><a href="التواصل.html">التواصل</a></li>
+        </ul>
+      </nav>
+      <img src="Enesweb (1).png" alt="شعار" />
+    </header> 
+    <section>
+      <h3>لمن يرغب في تعلم البرمجة من الصفر حتى الاحتراف</h3>
+      <form action="submit" method="post">
+        <label for="name">الأسم الثلاثي</label>
+        <input type="text" id="name" name="name" required />
 
+        <label for="age">العمر</label>
+        <input type="number" id="age" name="age" />
+        <br />
+        <br />
+        <label for="email">ايميل</label>
+        <input type="email" id="email" name="email" required />
 
-<footer><p>حقوق النشر © 2024 - جميع الحقوق محفوظة.</p></footer>
+        <label for="message">رسالة</label>
+        <input type="text" id="message" name="message" />
+        <br />
+        <br />
+        <label for="country">البلد</label>
+        <input type="text" id="country" name="country" required />
+        <br /><br />
+        <label for="source">سمعت عنا</label>
+
+        <select id="source" name="source">
+          <option value="instagram">انستغرام</option>
+          <option value="facebook">فيسبوك</option>
+          <option value="tiktok">تكتوك</option>
+          <option value="friend">صديق</option>
+        </select>
+
+        <button type="submit">يرسل</button>
+      </form>
+    </section>
+
+    <footer><p>حقوق النشر © 2024 - جميع الحقوق محفوظة.</p></footer>
+  </body>
 </html>
